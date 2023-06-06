@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda de Productos</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+.red-bar {
+  height: 130px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: rgba(255, 0, 0, 1);
+}
+.logo > img {
+ height: 123px;
+ width: 123px;
+ margin-left: 6px;
+ top: -3px;
+ border-radius: 0px;
+
+}
+
+.logo {
+  margin-right:1280px;
+}
+
+h1 {
+  color: black; /* Inserta tu color preferido aquí */
+}
+
+.product {
+  width: 480px;
+  height:480px;  
+  border: 1px solid purple; /* Inserta tu color preferido aquí */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product >p {
+    font-size: larger;
+    font: Helvetica-Neue;
+}
+.product img {
+ 
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.payment-options {
+  margin-top: 10px;
+}
+
+
+  a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+  font-size: bold;
+}
+ 
+ .container {
+    box-size:border-box;
+    display:inline-flex;
+    flex-direction:row;
+    padding: 5px;
+    margin-top: 10px; 
+}
+
+
+
+.bar {
+  box-size: border-box;
+  height: 45px;
+  width: 747px;
+  display: flex;
+  flex-direction: row;
+  float: center;
+  list-decoration: none;
+}
+.bar>ul {
+  text-decoration: none;
+}
+.bar ul {
+  display: flex;
+  flex-direction: row; /* Alinea los elementos en una línea horizontal */
+  list-style: none;
+  padding: 0;
+}
+
+.bar ul li {
+  margin-right: 10px; /* Ajusta el espacio entre los elementos de la lista */
+  text-alig: center;
+  align-items: center;
+}
+
+.bar ul li:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.bar > h3 {
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: rgba(0, 0, 0, 1);
+  
+}
+
+.sectores {
+ 
+  display: flex;
+  justify-content: center;
+
+}
+
+.foto-producto {
+  height: 180px;
+  width: 140px;
+  left: 120px;
+  top: 281px;
+  border-radius: 0px;
+
+}
+</style>
+<body>
+<header>
+    <nav class= "red-bar">
+     <div class="logo">
+     <img src="img/dexter.png">
+     </div>
+     
+      
+    </nav>
+<section class="sectores">
+  <nav class="bar">
+    <ul>
+        <li><a href="#"><h3>Categorias</h3></a></li>
+        <li><a href="#"><h3>Mujer</h3></a></li>
+        <li><a href="#"><h3>Marcas</h3></a></li>
+        <li><a href="#"><h3>Zapatillas</h3></a></li>
+        <li><a href="#"><h3>Liquidación</h3></a></li>
+
+      </ul>
+  </nav>
+</section>  
+      
+</header>
+
+<div class= "container">
+  <div class="foto-producto">
+    <img src="img/zapatilla1.jpeg" alt="Zapatillas ">
+  </div>  
+    <h2>Nike Running</h2>
+    <p></p>
+    <br>
+    <p> <h3>$30000</h3></p>
+    <div class="payment-options">
+        <ul>
+        <li>
+        <a href=""><h3>Pagar con Wowlet</h3></a>
+        </li>
+        <li><a href="">Pagar con Mercado Pago</a></li>
+        <li><a href="">Pagar con Ualá</a></li>
+    </div>
+    </div>
+ 
+
+    <div class="product">
+        <img src="img/zapas.jpeg" alt="Zapatillas Nike">
+        <h2>Nike Running</h2>
+        <p> <h3>$30000</h3></p>
+        <div class="payment-options">
+        <ul>
+        <li>
+        <a href=""><h3>Pagar con Wowlet</h3></a>
+        </li>
+        <li><a href="">Pagar con Mercado Pago</a></li>
+        <li><a href="">Pagar con Ualá</a></li>
+        </div>
+        </div>
+
+        <div class="product">
+        <img src="img/zapas2.jpeg" alt="Zapatillas Nike">
+        <h2>Nike Running</h2>
+        
+        <p> <h3>$30000</h3></p>
+        <div class="payment-options">
+        <ul>
+        <li>
+        <a href=""><h3>Pagar con Wowlet</h3></a>
+        </li>
+        <li><a href="">Pagar con Mercado Pago</a></li>
+        <li><a href="">Pagar con Ualá</a></li>
+        </div>
+  </div>
+</div>
+</body>
+</html>
+
+<style>
+
